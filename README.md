@@ -14,3 +14,15 @@ This image ships a minimal Haskell toolchain with the following packages install
 | `c2hs`          | `0.25.1`   |
 | `ghc`           | `7.8.4`    |
 
+## Usage
+
+* Start an interactive interpreter session with `ghci`:
+
+```
+    $ docker run -it --rm dimchansky/centos6-haskell:7.8.4
+    GHCi, version 7.8.4: http://www.haskell.org/ghc/  :? for help
+    Loading package ghc-prim ... linking ... done.
+    Loading package integer-gmp ... linking ... done.
+    Loading package base ... linking ... done.
+    Prelude>
+```
